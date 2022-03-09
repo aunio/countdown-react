@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const COUNTDOWN_INITIAL_TIME_IN_SECONDS = 5 // 25 Minutos
+const COUNTDOWN_INITIAL_TIME_IN_SECONDS = 25 * 60 // 25 Minutos
 
 function Countdown() {
 
