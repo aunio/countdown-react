@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const COUNTDOWN_INITIAL_TIME_IN_SECONDS = 25 * 60 // 25 Minutos
 
-function Countdown() {
+export function Countdown() {
 
     const [secondsAmount, setSecondsAmount] = useState(COUNTDOWN_INITIAL_TIME_IN_SECONDS);
 
@@ -27,8 +27,6 @@ function Countdown() {
         </>
     );
 }
-
-export default Countdown;
 
 // Obs.
 // Math.floor (Arredonda para baixo)
